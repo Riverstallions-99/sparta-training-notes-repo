@@ -1,3 +1,21 @@
+- [[#What is CI? Benefits?|What is CI? Benefits?]]
+- [[#What is CD? Benefits?|What is CD? Benefits?]]
+- [[#TODO Difference between CD and CDE|TODO Difference between CD and CDE]]
+- [[#Why use Jenkins? Benefits of using Jenkins? Disadvantages?|Why use Jenkins? Benefits of using Jenkins? Disadvantages?]]
+- [[#Stages of Jenkins?|Stages of Jenkins?]]
+- [[#What alternatives are there for Jenkins?|What alternatives are there for Jenkins?]]
+- [[#Why build a pipeline? Business value?|Why build a pipeline? Business value?]]
+- [[#CI/CD diagram|CI/CD diagram]]
+- [[#Understand SDLC workflow: plan, design, develop, deploy|Understand SDLC workflow: plan, design, develop, deploy]]
+- [[#Set up a job on Jenkins:|Set up a job on Jenkins:]]
+- [[#Authentication for using GitHub via Jenkins|Authentication for using GitHub via Jenkins]]
+- [[#Set up a webhook between Jenkins and GitHub|Set up a webhook between Jenkins and GitHub]]
+		- [[#On Jenkins Project, to webhook:|On Jenkins Project, to webhook:]]
+		- [[#On GitHub repo, to webhook:|On GitHub repo, to webhook:]]
+- [[#Set up a pipeline which tests, merges and deploys your code changes.|Set up a pipeline which tests, merges and deploys your code changes.]]
+	- [[#Set up a pipeline which tests, merges and deploys your code changes.#Test|Test]]
+	- [[#Set up a pipeline which tests, merges and deploys your code changes.#Merge|Merge]]
+	- [[#Set up a pipeline which tests, merges and deploys your code changes.#Deploy|Deploy]]
 
 # CI/CD Pipelines
 ## What is CI? Benefits?
