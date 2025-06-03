@@ -119,11 +119,11 @@ We want to give the GitHub Repo a public key, we also want to enable the user of
 
 
 ## Set up a pipeline which tests, merges and deploys your code changes.
-1. [[#Test]]
-2. [[#Merge]]
-3. [[#Deploy]]
+1. [[#Test (CI)]]
+2. [[#Merge (CI)]]
+3. [[#Deploy (CD)]]
 
-### Test
+### Test (CI)
 New Item:
 - Project name: tech504-becky-job1-ci-test
 - Select: Freestyle project
@@ -147,7 +147,7 @@ npm test
 	- Post-build Actions:
 		- Build other projects:
 			- Projects to build: `tech504-becky-job2-ci-merge`
-### Merge
+### Merge (CI)
 New Item:
 - Project name: tech504-becky-job2-ci-merge
 - Select: Freestyle project
@@ -178,7 +178,7 @@ New Item:
 	- Post-build Actions:
 		- Build other projects:
 			- Projects to build: tech504-becky-job3-ci-deploy
-### Deploy
+### Deploy (CD)
 New Item:
 - Project name: tech504-becky-job3-ci-deploy
 - Select: Freestyle project
@@ -229,3 +229,7 @@ EOF
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
+
+
+
+#Jenkins [[BeckyWhiteObsidian/Job & Career/Tech Stack Index/Jenkins|Jenkins]]
