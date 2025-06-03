@@ -59,6 +59,8 @@ Security improvements 2016
 - `docker commit <container-ref> <user>/<image-name>:latest` creates an image and saves to your user's repo, uses latest as default but good to be specific
 - `docker push <user>/<image-name>:latest` pushes your local repo image to your cloud repo, uses latest as default but good to be specific
 - `docker run -it --name <container-name> -d -p 80:80 <image-ref>`
+- `docker build . -t riverstallions/<image-name>`
+- 
 
 `docker run --name my-app-container5 -d -p 3000:3000 docker-app-image:latest bash -c "cd /root/app && pm2 start app.js && tail -f /dev/null"` to deploy my app image to the container, and run the app and keep the container running
 
