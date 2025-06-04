@@ -35,7 +35,7 @@ Open source in 2013
 Goes public March 2013
 Security improvements 2016
 
-
+## Docker CLI
 ### Commands
 - `docker run hello-world` runs a test container
 - `docker pull <image>` pulls images from the registry (DockerHub)
@@ -52,7 +52,7 @@ Security improvements 2016
 - `docker rm <container-ref>` remove a non running container (can list additional containers to remove more than one at once)
 - `docker images` list images installed locally
 - `docker rmi <image-ref>` remove image/s, can only remove images when container is removed, not just stopped (image ref can be the Image ID or the Image name)
-- `docker run -d -p 5000:80` runs on detached container, maps ports specified (localhost:5000 maps to container:80 which is where nginx runs automatically)
+- `docker run -d -p 80:5000` runs on detached container, maps ports specified (container:5000 maps to localhost:80 which is where nginx runs automatically)
 - `docker run --name my_container -d` runs container with a name you specify, rather than randomly generating one
 - `docker cp index.html my_website:/usr/share/nginx/html/` copy file into container, if no new name specified, file name will stay the same
 - `docker commit <container-ref> <image-name>` creates a local image based off of the container and names it whatever you put for image-name
@@ -62,7 +62,10 @@ Security improvements 2016
 - `docker build . -t riverstallions/<image-name>`
 - 
 
-`docker run --name my-app-container5 -d -p 3000:3000 docker-app-image:latest bash -c "cd /root/app && pm2 start app.js && tail -f /dev/null"` to deploy my app image to the container, and run the app and keep the container running
+outside:inside 
+so 80:3000 allows you to go to localhost:80 (or just localhost as :80 is the default) and it will map to the app port 3000 inside the container
+
+`docker run --name my-app-container -d -p 80:3000 docker-app-image:latest bash -c "cd /root/app && pm2 start app.js && tail -f /dev/null"` to deploy my app image to the container, and run the app and keep the container running
 
 
 Flags:
@@ -74,5 +77,13 @@ Flags:
 ```
 
 
+## Docker Compose
+### Why use Docker Compose?
+- For multi-container Docker applications
+- YAML to define what you need
+- use Docker Compose to easily start/stop/manage services defined in the YAML file.
+- 
+
+docker-compose.yaml/yml
 
 #Docker [[BeckyWhiteObsidian/Job & Career/Tech Stack Index/Docker|Docker]]

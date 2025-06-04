@@ -14,13 +14,14 @@ DIAGRAM
 
 ![[IMG_2293 1.jpeg]]
 
+- #TODO : What actually is a container? What is containerisation? 
 - Containerisation software will identify all the things needed to run the application, such as dependencies etc, build it into the application, run whole container.
 - Containers only run when they have something to do.
 
 **Benefits**:
 - Portability - No need to rewrite code for different systems, runs same on any OS
 - Scalability - Lightweight and efficient compared to VMs
-- Fault Tolerance - You can isolate individual parts of software. One faulty container will not be a big problem and it'll be obvious where the issue is
+- Fault Tolerance - You can isolate individual parts of software. One faulty container will not be a big problem and it'll be obvious where the issue is. (As long as you know what you're doing)
 - Agility - Changes can be made without interfering with OS or hardware
 - It's simple and easy to use
 - Abstracts you away from a lot of issues and allows you to do more important work, more efficiently (You don't have to spend time making VMs all day, every day)
