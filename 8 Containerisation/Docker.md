@@ -35,6 +35,21 @@ Open source in 2013
 Goes public March 2013
 Security improvements 2016
 
+
+## Setting up Docker to run containers
+
+## Making a container (with an existing image)
+
+## Making your own image
+
+## Running a container with your own image
+
+## Making an image with a Dockerfile 
+
+## Running containers together with Docker Compose
+
+
+
 ## Docker CLI
 ### Commands
 - `docker run hello-world` runs a test container
