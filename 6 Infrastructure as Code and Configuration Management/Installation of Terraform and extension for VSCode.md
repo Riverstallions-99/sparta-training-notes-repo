@@ -15,4 +15,4 @@
 
 
 
-#terraform [[BeckyWhiteObsidian/Job & Career/Tech Stack Index/Terraform|Terraform]] 
+#terraform [[BeckyWhiteObsidian/Job-And-Career/Tech Stack Index/Terraform|Terraform]] 

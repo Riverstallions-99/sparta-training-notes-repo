@@ -30,4 +30,4 @@ We can have a play around with Ansible now using some ad-hoc commands (-a is for
 
 
 
-#ansible #cloud #AWS [[BeckyWhiteObsidian/Job & Career/Tech Stack Index/Ansible|Ansible]] [[Cloud]] 
+#ansible #cloud #AWS [[BeckyWhiteObsidian/Job-And-Career/Tech Stack Index/Ansible|Ansible]] [[Cloud]] 

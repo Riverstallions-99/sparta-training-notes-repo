@@ -37,6 +37,10 @@ Security improvements 2016
 
 
 ## Setting up Docker to run containers
+1. Find and download the latest version of Docker Desktop https://docs.docker.com/desktop/setup/install/windows-install/
+2. Run .exe file, allowing the app to make changes to your computer, leaving the setup as the default
+3. If, after installation, you have issues with WSL, open a powershell terminal and run `wsl --install` to force install WSL
+4. 
 
 ## Making a container (with an existing image)
 
@@ -99,6 +103,6 @@ Flags:
 - use Docker Compose to easily start/stop/manage services defined in the YAML file.
 - 
 
-docker-compose.yaml/yml
 
-#Docker [[BeckyWhiteObsidian/Job & Career/Tech Stack Index/Docker|Docker]]
+---
+#Docker [[BeckyWhiteObsidian/Job-And-Career/Tech Stack Index/Docker|Docker]]

@@ -1,21 +1,25 @@
-- [[#What is CI? Benefits?|What is CI? Benefits?]]
-- [[#What is CD? Benefits?|What is CD? Benefits?]]
-- [[#TODO Difference between CD and CDE|TODO Difference between CD and CDE]]
-- [[#Why use Jenkins? Benefits of using Jenkins? Disadvantages?|Why use Jenkins? Benefits of using Jenkins? Disadvantages?]]
-- [[#Stages of Jenkins?|Stages of Jenkins?]]
-- [[#What alternatives are there for Jenkins?|What alternatives are there for Jenkins?]]
-- [[#Why build a pipeline? Business value?|Why build a pipeline? Business value?]]
-- [[#CI/CD diagram|CI/CD diagram]]
-- [[#Understand SDLC workflow: plan, design, develop, deploy|Understand SDLC workflow: plan, design, develop, deploy]]
-- [[#Set up a job on Jenkins:|Set up a job on Jenkins:]]
-- [[#Authentication for using GitHub via Jenkins|Authentication for using GitHub via Jenkins]]
-- [[#Set up a webhook between Jenkins and GitHub|Set up a webhook between Jenkins and GitHub]]
-		- [[#On Jenkins Project, to webhook:|On Jenkins Project, to webhook:]]
-		- [[#On GitHub repo, to webhook:|On GitHub repo, to webhook:]]
-- [[#Set up a pipeline which tests, merges and deploys your code changes.|Set up a pipeline which tests, merges and deploys your code changes.]]
-	- [[#Set up a pipeline which tests, merges and deploys your code changes.#Test|Test]]
-	- [[#Set up a pipeline which tests, merges and deploys your code changes.#Merge|Merge]]
-	- [[#Set up a pipeline which tests, merges and deploys your code changes.#Deploy|Deploy]]
+Contents:
+- [What is CI? Benefits?](#What%20is%20CI?%20Benefits?)
+- [What is CD? Benefits?](#What%20is%20CD?%20Benefits?)
+- [TODO Difference between CD and CDE](#TODO%20Difference%20between%20CD%20and%20CDE)
+- [Why use Jenkins? Benefits of using Jenkins? Disadvantages?](#Why%20use%20Jenkins?%20Benefits%20of%20using%20Jenkins?%20Disadvantages?)
+- [Stages of Jenkins?](#Stages%20of%20Jenkins?)
+- [What alternatives are there for Jenkins?](#What%20alternatives%20are%20there%20for%20Jenkins?)
+- [Why build a pipeline? Business value?](#Why%20build%20a%20pipeline?%20Business%20value?)
+- [CI/CD diagram](#CI/CD%20diagram)
+- [Understand SDLC workflow: plan, design, develop, deploy](#Understand%20SDLC%20workflow:%20plan,%20design,%20develop,%20deploy)
+- [Set up a job on Jenkins:](#Set%20up%20a%20job%20on%20Jenkins:)
+		- [Check build jobs:](#Check%20build%20jobs:)
+- [Authentication for using GitHub via Jenkins](#Authentication%20for%20using%20GitHub%20via%20Jenkins)
+- [Set up a webhook between Jenkins and GitHub](#Set%20up%20a%20webhook%20between%20Jenkins%20and%20GitHub)
+		- [On Jenkins Project, to webhook:](#On%20Jenkins%20Project,%20to%20webhook:)
+		- [On GitHub repo, to webhook:](#On%20GitHub%20repo,%20to%20webhook:)
+- [Set up a pipeline which tests, merges and deploys your code changes.](#Set%20up%20a%20pipeline%20which%20tests,%20merges%20and%20deploys%20your%20code%20changes.)
+	- [Test (CI)](#Test%20(CI))
+		- [To change when Job 2 is written:](#To%20change%20when%20Job%202%20is%20written:)
+	- [Merge (CI)](#Merge%20(CI))
+		- [To change when Job 3 is written:](#To%20change%20when%20Job%203%20is%20written:)
+	- [Deploy (CD)](#Deploy%20(CD))
 
 # CI/CD Pipelines
 ## What is CI? Benefits?
@@ -232,4 +236,4 @@ sudo apt-get install -y nodejs
 
 
 
-#Jenkins [[BeckyWhiteObsidian/Job & Career/Tech Stack Index/Jenkins|Jenkins]]
+#Jenkins [[BeckyWhiteObsidian/Job-And-Career/Tech Stack Index/Jenkins|Jenkins]]

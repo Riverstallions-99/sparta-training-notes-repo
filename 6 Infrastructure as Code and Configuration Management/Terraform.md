@@ -87,4 +87,4 @@ If a change has been made in-place, we can use configuration management tools su
 #Git 
 #terraform
 
-[[BeckyWhiteObsidian/Job & Career/Tech Stack Index/Terraform|Terraform]]
+[[BeckyWhiteObsidian/Job-And-Career/Tech Stack Index/Terraform|Terraform]]
